@@ -72,6 +72,10 @@ header ul:after{
   /*AboutAchive部分の実装*/
 }
 
+.paragraph{    /*追加*/
+  padding:10px;
+
+}
 /*ここから*/
 .function{
   background-color: #DDDDDD;
