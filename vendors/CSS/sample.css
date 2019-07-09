@@ -67,8 +67,8 @@ header ul:after{
   /*main画像（白いAchiveの文字の画像）部分の実装*/
 
 .about{
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
   /*AboutAchive部分の実装*/
 }
 
@@ -80,17 +80,26 @@ header ul:after{
 
 .function-wrapper{
   display:table;
-  width:100%;
-  margin-top:100px;
+  width:60%;
+  /*min-width: 480px;*/
+  margin-top:50px;
+  margin-right:auto;
+  margin-left:auto;
+  display:table;
+
   table-layout:fixed;
 }
 
 .function-box{
   display:table-cell;
+
+  padding-bottom: 50px;
 }
 
 .function-image{
+  width:20%;
   display:block;
+  min-width: 50%;
   margin-right:auto;
   margin-left:auto;
 }
